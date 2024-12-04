@@ -10,5 +10,5 @@ jobs:
       - name: Publish
         env:
           PSGALLERY_API_KEY: ${{ secrets.PSGALLERY_API_KEY }}
-        run: .\PowerShell\publish.ps1
+        run: .\publish.ps1
         shell: pwsh
