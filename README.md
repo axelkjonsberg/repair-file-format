@@ -14,6 +14,12 @@
 
 ## Installation
 
+### Through PowerShell Gallery
+
+Follow instructions at: <https://www.powershellgallery.com/packages/RepairFileFormat/1.0.0>
+
+### Manually
+
 1. Place the `.psm1` file containing the `Repair-FileFormat` function in a directory included in your `$env:PSModulePath`. For example:
 
     ```powershell
